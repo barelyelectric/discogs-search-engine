@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Discogs Search Engine",
+  "version": "1.0",
+  "description": "Adds Discogs as a custom search engine in Firefox",
+  "icons": {
+    "48": "icon.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Discogs",
+      "keyword": "discogs",
+      "search_url": "https://www.discogs.com/search?q={searchTerms}&type=all",
+      "encoding": "UTF-8"
+    }
+  }
+}
